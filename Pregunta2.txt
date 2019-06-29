@@ -1,0 +1,6 @@
+double Euclidea(Punto p1, Punto p2)
+{
+    double d1 = p2.getX() - p1.getX();
+    double d2 = p2.getY() - p1.getY();
+    return double(sqrt(pow(d1,2) + pow(d2,2)));
+}
